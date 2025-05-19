@@ -348,7 +348,7 @@ c	LOOPS
 
 	ei=0.01d0
 	ef=0.05d0
-	de=(ef-ei)/300.0d0
+	de=(ef-ei)/50.0d0
 
 c	valor medio atual=238040/60268=3.94969137850932
 c	valor do artigo
