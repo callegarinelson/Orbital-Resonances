@@ -1,7 +1,11 @@
 "individual.f"  is a software written in Fortran code that generates the data to construct the plots given in Figure 3 in "Callegari and Rodríguez: The orbit of Aegaeon and the 7:6 Mimas-Aegaeon resonance. Celestial Mechanics and Dynamical Astronomy (2023) 135:21". The data consists of the orbital elements obtained numerically of a satellite similar to the current Aegaeon,  and perturbed by several bodies (Mimas, Enceladus, Tethys, Dione, Rhea, and Titan), plus the field of the non-spherical shape of the out-of-round Saturn. 
 
+"xyz-geometric.f" is a software written in Fortran code that transforms the rectangular coordinates of the integrated satellites in the so-caled 'geometric orbital elements'. It is linked to "individual.f" to generate some plots in Figure 3.
+
 "fft.f"  is a software written in Fortran code that generates the data to construct the spectra given in Figure 2 (bottom line) in Callegari and Rodríguez (2023). It applies an algorithm of the "Fast Fourier Transform" to the current orbit of a body similar to Aegaeon, obtained numerically by the main code "individual.f". 
 
 "ips.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 2 (first line) in Callegari and Rodríguez (2023). These plots consist of unidimensional mapping of the 7/6 Aeagaeon-Mimas resonance. Dense sets of orbits of clones of the small satellite Aegaeon are numerically determined accordingly to the N-body routine "individual.f". The orbits are Fourier analyzed by the "fft.f" code.  
 
 "maps.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 1 in Callegari and Rodríguez (2023). The Fourier analysis is made in a plane, increasing the dimension of the phase space. The mapping of the resonance reveals the main features of the phase space of the dynamical system.
+
+It is worth noting that 
