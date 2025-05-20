@@ -8,4 +8,4 @@
 
 "maps.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 1 in Callegari and Rodríguez (2023). The Fourier analysis is made in a plane, increasing the dimension of the phase space. The mapping of the resonance reveals the main features of the phase space of the dynamical system.
 
-It is worth noting that 
+It is worth noting that all codes have been applied to another satellite, like Callegari et al. The current orbit of Methone (S/2004 S 1). Celestial Mechanics and Dynamical Astronomy (2021) 133:49.
