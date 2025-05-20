@@ -1,7 +1,7 @@
-"individual.f"  is a software written in Fortran code that generates the data to construct the plots given in Figure 3 in "Callegari and Rodríguez: The orbit of Aegaeon and the 7:6 Mimas-Aegaeon resonance. Celestial Mechanics and Dynamical Astronomy (2023) 135:21". 
+"individual.f"  is a software written in Fortran code that generates the data to construct the plots given in Figure 3 in "Callegari and Rodríguez: The orbit of Aegaeon and the 7:6 Mimas-Aegaeon resonance. Celestial Mechanics and Dynamical Astronomy (2023) 135:21". The data consists of the numerical integration of a satellite similar to the current  Aegaeon perturbed by several bodies (Mimas, Enceladus, Tethys, Dione, Rhea, and Titan), plus the field of the non-spherical shape of the out-of-round Saturn.
 
-"fft.f"   on the Fast Fourier Transform analysis
+"fft.f"  is a software written in Fortran code that generates the data to construct the spectra given in Figure 2 (bottom line) in Callegari and Rodríguez (2023). It applies an algorithm of the "Fast Fourier Transform" to current orbit of Aegaeon obtained numerically by the main code "individual.f" . 
 
-"ips.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 2 in Callegari and Rodríguez (2023). Figure 2 consists of an unidimensional mapping of the 7/6 Aeagaeon-Mimas resonance. Dense sets of orbits of clones of the small satellite Aegaeon are numerically determined accordingly to the N-body routine "individual.f" are Fourier analyzed by the "ips.f" code. 
+"ips.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 2 (first line) in Callegari and Rodríguez (2023). These plots consist of unidimensional mapping of the 7/6 Aeagaeon-Mimas resonance. Dense sets of orbits of clones of the small satellite Aegaeon are numerically determined accordingly to the N-body routine "individual.f". The orbits are Fourier analyzed by the "fft.f" code.  
 
-"maps.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 1 in Callegari and Rodríguez (2023).
+"maps.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 1 in Callegari and Rodríguez (2023). The Fourier analysis is made in a plane.
