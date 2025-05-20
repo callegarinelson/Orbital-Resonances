@@ -1,6 +1,6 @@
 "individual.f"  is a software written in Fortran code that generates the data to construct the orbit of the satellite given in Figure 3 in "Callegari and Rodríguez: The orbit of Aegaeon and the 7:6 Mimas-Aegaeon resonance. Celestial Mechanics and Dynamical Astronomy (2023) 135:21". The data consists of the orbital elements obtained numerically of a satellite similar to the current Aegaeon,  and perturbed by several bodies (Mimas, Enceladus, Tethys, Dione, Rhea, and Titan), plus the field of the non-spherical shape of the out-of-round Saturn. 
 
-"xyz-geometric.f" is a software written in Fortran code that transforms the rectangular coordinates of the integrated satellites in the so-called 'geometric orbital elements'. It is linked to "individual.f" to generate the plots given in Figure 3.
+"xyz-geometric.f" is a software written in Fortran code that transforms the rectangular coordinates of the integrated satellites in the so-called 'geometric orbital elements'. It is linked to "individual.f" to generate the plots given in Figure 3. This software is the property of Tadashi Yokoyama.
 
 "fft.f"  is a software written in Fortran code that generates the data to construct the spectra given in Figure 2 (bottom line) in Callegari and Rodríguez (2023). It applies an algorithm of the "Fast Fourier Transform" to the current orbit of a body similar to Aegaeon, obtained numerically by the main code "individual.f". 
 
@@ -8,4 +8,4 @@
 
 "maps.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 1 in Callegari and Rodríguez (2023). The Fourier analysis is made in a plane, increasing the dimension of the phase space. The mapping of the resonance reveals the main features of the phase space of the dynamical system.
 
-It is worth noting that all codes have been applied to another satellite, like Callegari et al. The current orbit of Methone (S/2004 S 1). Celestial Mechanics and Dynamical Astronomy (2021) 133:49.
+It is worth noting that all codes have been applied to other works, like "Callegari et al. The current orbit of Methone (S/2004 S 1). Celestial Mechanics and Dynamical Astronomy (2021) 133:49"; and "Callegari, N. and Yokoyama, T.. Dynamics of the 11:10 Corotation and Lindblad resonances with Mimas, and application to Anthe. Icarus 348 (2020) 113820".
