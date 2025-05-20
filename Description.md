@@ -1,1 +1,4 @@
-"ips-aegaeon.f" is 
+"individual.f"  is a software written in Fortran code that generates the data to construct the plots given in Figure 3 in "Callegari and Rodríguez: The orbit of Aegaeon and the 7:6 Mimas-Aegaeon resonance. Celestial Mechanics and Dynamical Astronomy (2023) 135:21".
+"fft.f"   on the Fast Fourier Transform analysis
+"ips.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 2 in Callegari and Rodríguez (2023). Figure 2 consists of an unidimensional mapping of the 7/6 Aeagaeon-Mimas resonance. Dense sets of orbits of clones of the small satellite Aegaeon are numerically determined accordingly to the N-body routine "individual.f" are Fourier analyzed by the "ips.f" code. 
+"maps.f" is a software written in Fortran code that generates the data to construct the plots given in Figure 1 in Callegari and Rodríguez (2023).
